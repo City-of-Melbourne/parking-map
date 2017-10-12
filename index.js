@@ -163,7 +163,7 @@ function initMap() {
         maxBounds: [ [144.88, -37.86], [145.01, -37.76] ],
         attributionControl: false,
         zoom: 15,
-        minZoom: 14,
+        minZoom: 13.5,
         dragRotate: false,
         pitchWithRotate: false, // no 3D nonsense
         center: [144.960712, -37.815]
