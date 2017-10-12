@@ -1,0 +1,149 @@
+/*
+@font-face {
+    font-family: 'COM';
+
+    src: url('com-webfont.woff2') format('woff2'),
+         url('com-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+/*@font-face {
+    font-family: 'Gothic';
+
+    
+    src: url('com-webfont.woff2') format('woff2'),
+         url('com-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100.1%;
+    overflow: hidden;
+}
+
+html {
+    height: 100.1%;
+}
+
+.map-container {
+    position: relative;
+}
+
+.mapboxgl-ctrl-group > button.ctrl-button {
+    width: 100%;
+    padding: 0 5px;
+}
+
+.ctrl-icon {
+    float: left;
+}
+
+.ctrl-icon-text {
+    float: left;
+    line-height: 24px;
+}
+
+.carousel-control {
+	opacity: 1
+}
+.mapboxgl-ctrl-group {
+    border-radius: 0px;
+}
+
+#search-btn {
+    float: right;
+    padding-right: 10px;
+    /* height: 100%; */
+	font-size: 1.5em;
+	padding-top: 3px;
+}
+
+
+.mapboxgl-popup {
+    max-width: 95%;
+    z-index: 10;
+}
+
+.mapboxgl-popup-close-button {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.map-container {
+    height: 100%;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    /*.title-on-white { font-size: 30px; }*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #map { height: 100%; }
+}
+
+
+
+/* Added just for sensor map */
+.mapboxgl-popup h4 {
+    font-family: 'Arial', 'Helvetica', 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.r-ids {
+    color:#555;
+}
+
+#legend, #permit-mode {
+    left: 20px;    
+    padding: 0.5em 1em;
+    position: absolute;
+    background:white;
+    color: #002B3F;
+    border: 1px solid lightgrey;
+    width:160px;
+    display:none;
+}
+#legend {
+    top:20px;    
+}
+
+
+#legend .bullet {
+    display:inline-block; 
+    height:1em; 
+    width:1em; 
+    border-radius:0.5em; 
+    border: 1px solid grey;
+    margin-right:0.25em;
+}
+
+#permit-mode {
+    top: 230px;
+}
