@@ -261,9 +261,19 @@ function addLayers(disabilityPermit) {
             [240, '#43a2ca']
 
             //[300,'hsl(240,100%,60%)']
-        ].map(function(s) { 
-            return [s[0] * timeMultiplier, s[1]]
-        });
+        ];
+
+    if (window.location.hash.match('tim2')) {
+        colorStops = [[15,'#e63c2f'],
+           [30,'#ff6c36'],
+           [60,'#ffe01e'],
+           [120,'#00b3e3'],
+           [240,'#00af41']];
+    }
+
+    colorStops = colorStops.map(function(s) { 
+        return [s[0] * timeMultiplier, s[1]];
+    });
 
     
 
