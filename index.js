@@ -186,7 +186,7 @@ function innerCircle(partialId, filter, color) {
         type: 'circle',
         filter: filter,
         paint: {
-            'circle-radius': { base: 2, stops: [ [13, 1], [18, 4]] },
+            'circle-radius': { base: 2, stops: [ [13, 3], [18, 4]] },
             'circle-color': color || 'white'
         }
     };
