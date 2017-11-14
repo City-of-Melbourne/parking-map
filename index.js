@@ -168,7 +168,7 @@ function initMap() {
         dragRotate: false,
         pitchWithRotate: false, // no 3D nonsense
         center: [144.960712, -37.815]
-    }).addControl(new mapboxgl.FullscreenControl());
+    });
     map.whenLoaded = function(f) { 
         return this.loaded() ? f() : this.once('load', f);
     };
