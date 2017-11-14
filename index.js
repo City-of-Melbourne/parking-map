@@ -199,7 +199,7 @@ function outerCircle(partialId, filter, color) {
         type: 'circle',
         filter: filter,
         paint: {
-            'circle-radius': { base: 2, stops: [ [13, 2], [18, 8]]},
+            'circle-radius': { base: 2, stops: [ [13, 2], [18, 10]]},
             'circle-color': color
         }
     }
