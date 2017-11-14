@@ -186,7 +186,7 @@ function innerCircle(partialId, filter, color) {
         type: 'circle',
         filter: filter,
         paint: {
-            'circle-radius': { base: 3, stops: [ [15, 0], [18, 4]] },
+            'circle-radius': { base: 2, stops: [ [13, 1], [18, 4]] },
             'circle-color': color || 'white'
         }
     };
@@ -199,7 +199,7 @@ function outerCircle(partialId, filter, color) {
         type: 'circle',
         filter: filter,
         paint: {
-            'circle-radius': { base: 1, stops: [ [13, 2], [18, 12]]},
+            'circle-radius': { base: 2, stops: [ [13, 2], [18, 12]]},
             'circle-color': color
         }
     }
