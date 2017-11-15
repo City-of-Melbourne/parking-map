@@ -117,7 +117,14 @@ html {
     margin-right:0.25em;
 }
 
-
+#legend .bullet-dot {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    border: 1px solid white;
+    margin-right: 0.25em;
+}
 
 @media only screen and (min-width : 20px) {
     #legend, #permit-mode {
