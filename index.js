@@ -445,6 +445,7 @@ $('#permit').click(function(e) {
     layersAdded=[];
     addLayers($('#permit').is(':checked'));
     $('.bullet-disabled').hide();
+    console.log('aa');
 });
 
 map.whenLoaded(function() {
