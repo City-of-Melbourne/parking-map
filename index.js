@@ -283,7 +283,7 @@ function addLayers(disabilityPermit) {
     var colorNotPresent = 'white';
     var colorInactive = '#bbb';
     var colorOuter = '#555'; // very thin outline outside the thick band
-    var colorDisabled = disabilityPermit ? 'hsl(180,90%,60%)' : 'hsl(240,50%,30%)'; //'hsl(230,95%,70%)';
+    var colorDisabled = disabilityPermit ? '#277BB4' : 'hsl(240,50%,30%)'; //'hsl(230,95%,70%)';
 
     var colorRestrictions = {
         property: disabilityPermit ? 'DisabilityExt' : 'Duration' ,
