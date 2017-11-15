@@ -229,8 +229,12 @@ function addLayers(disabilityPermit) {
         return '<div class="bullet" style="border-color: ' + color + '"> </div> ' + text;
     }
     
-     function legendBulletDot(color, text) {
-        return '<div class="bullet-dot" style="background-color: ' + color + '"> </div> ' + text;
+     function legendBulletOccupancy(color, text) {
+        return '<div class="bullet-occupancy" style="background-color: ' + color + '"> </div> ' + text;
+    }
+    
+     function legendBulletDisabled(color, text) {
+        return '<div class="bullet-disabled" style="background-color: ' + color + '"> </div> ' + text;
     }
     
     var colorStops = [
@@ -352,10 +356,10 @@ function addLayers(disabilityPermit) {
         return legendBullet(stop[1], stop[0] + ' minutes<br>');
     }).join('') + '<br>';
     
-    legendHTML += legendBulletDot(colorPresent, 'Occupied<br>');
-    legendHTML += legendBulletDot(colorNotPresent , 'Vacant<br>');
+    legendHTML += legendBulletOccupancy(colorPresent, 'Occupied<br>');
+    legendHTML += legendBulletOccupancy(colorNotPresent , 'Vacant<br>');
     
-    legendHTML += legendBullet(colorDisabled, 'Disabled only');
+    legendHTML += legendBulletDisabled(colorDisabled, 'Disabled only');
     
     document.getElementById('legend').innerHTML = legendHTML;
     $('#legend,#permit-mode').show();
