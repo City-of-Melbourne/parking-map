@@ -354,7 +354,7 @@ function addLayers(disabilityPermit) {
     legendHTML += legendBullet(colorDisabled, 'Disabled only<br/>');
 
     legendHTML += legendBulletDot(colorPresent, 'Occupied<br>');
-    legendHTML += legendBulletDot(colorInactive, 'Inactive');
+    legendHTML += legendBulletDot(colorNotPresent , 'Vacant');
     document.getElementById('legend').innerHTML = legendHTML;
     $('#legend,#permit-mode').show();
 
