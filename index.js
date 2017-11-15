@@ -312,10 +312,10 @@ function addLayers(disabilityPermit) {
         */
 
    
-
+  //TG  addLayer(outerCircle('present', ['==', 'status','Present'], colorPresent));
     
     //addLayer(innerCircle('not-present', ['==', 'status','Not Present'], 'hsl(100, 90%, 60%)'));
-    addLayer(outerCircle('present', ['==', 'status','Present'], colorPresent));
+    addLayer(outerCircle('present', ['==', 'status','Present'], colorRestrictions));
     addLayer(outerCircle('not-present', ['all', ['==', 'status','Unoccupied'], ['!=', 'TypeDesc', 'Loading Zone']], colorRestrictions));
     addLayer(outerCircle('disabled-outer', ['==', 'Exemption','Disabled Logo'], colorDisabled)); // TODO avoid overlapping with previous
     
