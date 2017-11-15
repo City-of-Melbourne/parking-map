@@ -226,7 +226,7 @@ function addLayers(disabilityPermit) {
     //disabilityPermit = true;
     var timeMultiplier = disabilityPermit ? 2 : 1;
     function legendBullet(color, text) {
-        return '<div class="bullet" style="background-color: ' + color + '"> </div> ' + text;
+        return '<div class="bullet" style="border-color: ' + color + '"> </div> ' + text;
     }
     
     var colorStops = [
