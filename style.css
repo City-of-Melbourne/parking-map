@@ -104,7 +104,10 @@ html {
     border: 1px solid lightgrey;
     display:none;
 }
+
 #legend {
+    background-color: #806565;
+    color: white;
 }
 
 
@@ -115,6 +118,7 @@ html {
     border-radius:1em; 
     border: 3px solid white;
     margin-right:0.25em;
+    background-color: white;
 }
 
 #legend .bullet-dot {
