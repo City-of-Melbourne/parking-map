@@ -112,8 +112,8 @@ html {
     display:inline-block; 
     height:1em; 
     width:1em; 
-    border-radius:0.5em; 
-    border: 1px solid grey;
+    border-radius:1em; 
+    border: 1px solid white;
     margin-right:0.25em;
 }
 
