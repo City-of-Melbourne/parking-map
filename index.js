@@ -234,7 +234,7 @@ function addLayers(disabilityPermit) {
     }
     
      function legendBulletDisabled(color, text) {
-        return '<div class="bullet-disabled" style="background-color: ' + color + '"> </div> ' + text;
+        return '<div class="bullet-disabled" style="border-color: ' + color + '"> </div> ' + text;
     }
     
     var colorStops = [
