@@ -311,6 +311,10 @@ function addLayers(disabilityPermit) {
         // this was attached to disabled layer
         */
 
+     addLayer(innerCircle('present',     ['==', 'status','Present'], colorPresent));
+    addLayer(innerCircle('not-present', ['all', ['==', 'status','Unoccupied'], ['!=', 'TypeDesc', 'Loading Zone']], colorNotPresent));
+
+    
     //addLayer(innerCircle('not-present', ['==', 'status','Not Present'], 'hsl(100, 90%, 60%)'));
     addLayer(outerCircle('present', ['==', 'status','Present'], colorPresent));
     addLayer(outerCircle('not-present', ['all', ['==', 'status','Unoccupied'], ['!=', 'TypeDesc', 'Loading Zone']], colorRestrictions));
@@ -319,8 +323,8 @@ function addLayers(disabilityPermit) {
     /*addLayer(innerCircle('loading-zone', ['==', 'TypeDesc', 'Loading Zone'], 'white'));
     addLayer(innerCircle('disabled', ['==', 'Exemption','Disabled Logo'], colorDisabled));*/
 
-    addLayer(innerCircle('present',     ['==', 'status','Present'], colorPresent));
-    addLayer(innerCircle('not-present', ['all', ['==', 'status','Unoccupied'], ['!=', 'TypeDesc', 'Loading Zone']], colorNotPresent));
+    //addLayer(innerCircle('present',     ['==', 'status','Present'], colorPresent));
+   // addLayer(innerCircle('not-present', ['all', ['==', 'status','Unoccupied'], ['!=', 'TypeDesc', 'Loading Zone']], colorNotPresent));
 
 
     addLayer({
