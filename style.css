@@ -118,16 +118,24 @@ html {
     border-radius:1em; 
     border: 3px solid white;
     margin-right:0.25em;
-    background-color: white;
 }
 
-#legend .bullet-dot {
+#legend .bullet-occupancy {
     display: inline-block;
     height: 1em;
     width: 1em;
     border-radius: 1em;
  //   border: 1px solid white;
     margin-right: 0.25em;
+}
+
+#legend .bullet-disabled {
+    display:inline-block; 
+    height:1em; 
+    width:1em; 
+    border-radius:1em; 
+    border: 3px solid white;
+    margin-right:0.25em;
 }
 
 @media only screen and (min-width : 20px) {
