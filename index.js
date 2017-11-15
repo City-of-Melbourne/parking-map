@@ -230,7 +230,7 @@ function addLayers(disabilityPermit) {
     }
     
      function legendBulletDot(color, text) {
-        return '<div class="bullet-dot" style="border-color: ' + color + '"> </div> ' + text;
+        return '<div class="bullet-dot" style="background-color: ' + color + '"> </div> ' + text;
     }
     
     var colorStops = [
