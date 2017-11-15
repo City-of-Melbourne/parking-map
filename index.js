@@ -351,10 +351,12 @@ function addLayers(disabilityPermit) {
     legendHTML = colorStops.map(function(stop) {
         return legendBullet(stop[1], stop[0] + ' minutes<br>');
     }).join('') + '<br>';
-    legendHTML += legendBullet(colorDisabled, 'Disabled only<br/>');
-
+    
     legendHTML += legendBulletDot(colorPresent, 'Occupied<br>');
-    legendHTML += legendBulletDot(colorNotPresent , 'Vacant');
+    legendHTML += legendBulletDot(colorNotPresent , 'Vacant<br>');
+    
+    legendHTML += legendBullet(colorDisabled, 'Disabled only');
+    
     document.getElementById('legend').innerHTML = legendHTML;
     $('#legend,#permit-mode').show();
 
