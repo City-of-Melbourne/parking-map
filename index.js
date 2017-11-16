@@ -230,7 +230,7 @@ function addLayers(disabilityPermit) {
     }
     
      function legendBulletOccupancy(color, text) {
-        return '<div class="bullet-occupancy" style="border-color: ' + color + '"> </div> ' + text;
+        return '<div class="bullet-occupancy" style="background-color: ' + color + '"> </div> ' + text;
     }
     
      function legendBulletDisabled(color, text) {
