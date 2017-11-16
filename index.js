@@ -167,7 +167,7 @@ function initMap() {
         maxZoom:19,
         dragRotate: false,
         pitchWithRotate: false, // no 3D nonsense
-        center: [144.960712, -37.815]
+        center: [144.963, -37.814]
     });
     map.whenLoaded = function(f) { 
         return this.loaded() ? f() : this.once('load', f);
