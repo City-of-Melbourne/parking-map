@@ -295,7 +295,7 @@ function addLayers(disabilityPermit) {
     // map.addLayer(sensorLayer('present',     ['==', 'status','Present'],     'hsl(350, 90%, 40%)'));
     var colorPresent = '#000000';//'hsl(350, 90%, 0%)';
     var colorNotPresent = 'white';
-    var colorInactive = '#bbb';
+    var colorInactive = '#F2F3F4';
     var colorOuter = '#555'; // very thin outline outside the thick band
     var colorDisabled = disabilityPermit ? '#E50E56' : '#D4D6DB'; //'hsl(230,95%,70%)';
 
