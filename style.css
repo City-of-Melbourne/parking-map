@@ -155,7 +155,7 @@ html {
 
 @media only screen and (min-width : 480px) {
     #legend {
-        top: 20px;
+        top: 10px;
     }
     #permit-mode {
         top: 220px;
@@ -163,7 +163,7 @@ html {
     #legend, #permit-mode {
         font-size:10pt;
         width: 180px;
-        left: 20px;    
+        left: 10px;    
         padding: 0.5em 1em;
     }
 }
