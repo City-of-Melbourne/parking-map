@@ -360,7 +360,7 @@ function addLayers(disabilityPermit) {
     }).join('') + '<br>';
     
     legendHTML += legendBulletOccupancy(colorPresent, 'Occupied<br>');
-    legendHTML += legendBulletOccupancy(colorNotPresent , 'Vacant');
+    legendHTML += legendBulletOccupancy(colorNotPresent , 'Vacant<br>');
     
     legendHTML += legendBulletDisabled(colorDisabled, 'Disabled only');
     
