@@ -357,7 +357,7 @@ function addLayers(disabilityPermit) {
 
     legendHTML = colorStops.map(function(stop) {
         return legendBullet(stop[1], stop[0] + ' minutes<br>');
-    }).join('') + '<br>';
+    }).join('');
     
     legendHTML += legendBulletOccupancy(colorPresent, 'Occupied<br>');
     legendHTML += legendBulletOccupancy(colorNotPresent , 'Vacant<br>');
